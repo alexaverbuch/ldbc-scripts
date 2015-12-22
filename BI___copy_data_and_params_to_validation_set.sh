@@ -15,6 +15,7 @@ rm ${validation_set_dir}/social_network/*
 
 cp ${data_gen_dir}/params.ini ${validation_set_dir}/
  
+cp ${parameters_dir}/q0* ${validation_set_dir}/substitution_parameters/
 cp ${parameters_dir}/q1* ${validation_set_dir}/substitution_parameters/
 cp ${parameters_dir}/q2* ${validation_set_dir}/substitution_parameters/
 cp ${parameters_dir}/q3* ${validation_set_dir}/substitution_parameters/
