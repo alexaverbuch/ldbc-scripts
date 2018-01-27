@@ -1,8 +1,8 @@
 #!/bin/sh
 parameters_dir=/Users/alexaverbuch/IdeaProjects/ldbc_snb_datagen/substitution_parameters
 update_stream_dir=/Users/alexaverbuch/hadoopTempDir/output/social_network
-driver_interactive_dir=/Users/alexaverbuch/IdeaProjects/ldbc-load-generator/ldbc_snb_workload_interactive_neo4j/ldbc_driver/src/test/resources/snb/interacive
-driver_bi_dir=/Users/alexaverbuch/IdeaProjects/ldbc-load-generator/ldbc_snb_workload_interactive_neo4j/ldbc_driver/src/test/resources/snb/bi
+driver_interactive_dir=/Users/alexaverbuch/IdeaProjects/ldbc/ldbc_driver/src/test/resources/snb/interacive
+driver_bi_dir=/Users/alexaverbuch/IdeaProjects/ldbc/ldbc_driver/src/test/resources/snb/bi
 
 cp ${parameters_dir}/q1* ${driver_bi_dir}
 cp ${parameters_dir}/q2* ${driver_bi_dir}
